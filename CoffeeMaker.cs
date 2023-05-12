@@ -16,6 +16,7 @@ namespace Kaffemaskine
         public override void AddIngredients(double amount)
         {
             CoffeeBeans += amount;
+            Console.WriteLine("Adding coffee beans...");
         }
 
         // Get the name of the beverage
